@@ -42,7 +42,7 @@ int fractal(complex c) {
 }
 
 int it=10;
-int res=1;
+int res=4;
 color[] cols = new color[it];
 int[][] screen;
 double ox=0;
@@ -87,7 +87,7 @@ void draw() {
       s*=1.1;
       ox=targetOX*s/targetS;
       oy=targetOY*s/targetS;
-      res=3;
+      res=4;
       it=(int)(10+(targetIT-10)*(f/totalF));
       for (int y=0;y<height;y+=res) {
         for (int x=0;x<width;x+=res) {
