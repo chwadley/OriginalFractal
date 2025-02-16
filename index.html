@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<title>Title</title>
+		<title>Mandelbrot Set</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Header</h1>
+			<h1>Mandelbrot Set</h1>
 		</header>
 			<section id="content">
 				<canvas id="OriginalFractal" data-processing-sources="OriginalFractal.pde">
 				</canvas>
 		    </section>
 	    <footer>
-		    Footer
+		    <br/><b>Mandelbrot Set</b>
+		    <br/>New feature: press <b>space</b> to playback a zoom-in of the area you are on.
+		    <br/>Press <b>T</b> to increase the resolution of the image. Higher resolution images will take exponentially longer to render.<br/><b>G</b> decreases the resolution.
+		    <br/>Press <b>WASD</b> to move the fractal around the screen.
+		    <br/>Press <b>up arrow</b> to zoom in and <b>down arrow</b> to zoom out.
+		    <br/>Press <b>right arrow</b> to increase the number of iterations used to generate the fractal. (Makes it more intricate)<br/><b>left arrow</b> will decrease the number of iterations.
 	    </footer>
 	</body>
 </html>
