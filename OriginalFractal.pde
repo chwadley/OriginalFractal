@@ -87,7 +87,7 @@ void draw() {
       s*=1.1;
       ox=targetOX*s/targetS;
       oy=targetOY*s/targetS;
-      res=1;
+      res=3;
       it=(int)(10+(targetIT-10)*(f/totalF));
       for (int y=0;y<height;y+=res) {
         for (int x=0;x<width;x+=res) {
